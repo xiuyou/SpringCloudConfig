@@ -1,0 +1,8 @@
+zuul:
+  routes:
+    first:
+      path: /api-r/**
+      url: http://localhost:7001/
+    second:
+      path: /api-f/**
+      url: http://localhost:8756/
